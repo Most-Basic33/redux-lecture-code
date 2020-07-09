@@ -1,15 +1,24 @@
-import React from 'react';
+ 
 import Header from './Components/Header';
 import routes from './routes';
 import './App.css';
+ 
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      {routes}
-    </div>
-  );
-}
+import React  from 'react'
+ 
+const App = (props) => {
+    
+         return (
+      <div className="App">
+            <Header />
+             {routes}
+           </div>
+    )
+ }
+ 
+ export default App;
+  
+  
+  
+//I might have to remove null
 
-export default App;
